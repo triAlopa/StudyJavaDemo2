@@ -23,8 +23,8 @@ public class ParesIntToString {
 
     /*
 
-捏麻麻的 这个实现的好丑陋😅 狗脑要烧坏了
- */
+    捏麻麻的 这个实现的好丑陋😅 狗脑要烧坏了
+     */
     private static Integer paresIntToString(String string) {
 //        //将字符串转换为字符数组
 //        char[] charArray = string.toCharArray();
