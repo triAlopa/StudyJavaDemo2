@@ -1,4 +1,4 @@
-package StuDemo8_06.Collection.Demo;
+package StuDemo8_07.Collection.Demo;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package StuDemo8_06.Collection;
+package StuDemo8_07.Collection;
 
 
 import java.util.ArrayList;
