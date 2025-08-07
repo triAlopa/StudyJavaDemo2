@@ -1,4 +1,4 @@
-package StuDemo8_06.list;
+package StuDemo8_06.Collection;
 
 
 import java.util.ArrayList;
@@ -18,21 +18,32 @@ Collection
  */
 public class CollectionDemo1 {
     public static void main(String[] args) {
+        // 创建一个Collection集合
         Collection<String> c= new ArrayList<>();
+        // 向集合中添加元素
         c.add("hello, ");
         c.add("java!");
+        // 输出集合的长度
         System.out.println(c.size());
+        // 输出集合的内容
         System.out.println(c.toString());
 
+        // 从集合中移除指定的元素
         c.remove("hello, ");
+        // 输出集合的内容
         System.out.println(c.toString());
 
+        // 清空集合中的元素
         c.clear();
+        // 输出集合的内容
         System.out.println(c.toString()+"1 ");
 
+        // 向集合中添加元素
         c.add("hello, ");
         c.add("java!");
+        // 判断集合中是否存在指定的元素
         System.out.println(c.contains("java!"));
+        // 判断集合中是否存在指定的元素
         System.out.println(c.contains("java1!"));
     }
 }
