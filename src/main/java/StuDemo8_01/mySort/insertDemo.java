@@ -1,4 +1,4 @@
-package StuDemo8_01;
+package StuDemo8_01.mySort;
 
 /*
            插入排序：

@@ -1,4 +1,4 @@
-package StuDemo8_01;
+package StuDemo8_01.mySort;
 
 public class QuickSortDemo {
     public static void main(String[] args) {
