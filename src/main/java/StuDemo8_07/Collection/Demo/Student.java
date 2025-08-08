@@ -1,7 +1,10 @@
 package StuDemo8_07.Collection.Demo;
 
+import lombok.Data;
+
 import java.util.Objects;
 
+@Data
 public class Student {
     private String name;
     private int age;
@@ -10,26 +13,6 @@ public class Student {
         this.name = name;
         this.age = age;
     }
-
-    public Student() {
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
 
     @Override
     public int hashCode() {
