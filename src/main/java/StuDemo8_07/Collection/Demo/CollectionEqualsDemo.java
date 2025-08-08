@@ -16,6 +16,6 @@ public class CollectionEqualsDemo {
         //未进行重写容器泛型 的校验是否存在
         System.out.println(collection.contains(s4));//false
         //重写了equals方法
-        System.out.println(collection.contains(s4));//false
+        System.out.println(collection.contains(s4));//true
     }
 }
