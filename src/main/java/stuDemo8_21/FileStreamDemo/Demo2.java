@@ -2,7 +2,6 @@ package stuDemo8_21.FileStreamDemo;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Demo2 {

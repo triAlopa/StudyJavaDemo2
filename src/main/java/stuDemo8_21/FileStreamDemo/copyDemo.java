@@ -1,9 +1,6 @@
 package stuDemo8_21.FileStreamDemo;
 
 import java.io.*;
-import java.time.Instant;
-import java.util.Calendar;
-import java.util.Date;
 
 public class copyDemo {
 /**
