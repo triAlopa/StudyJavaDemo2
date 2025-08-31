@@ -1,20 +1,19 @@
-package stuDemo8_31.ObjectStreamDemo;
+package stuDemo8_31.E;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 public class Student implements Serializable {
 
 
     private static final long serialVersionUID = -9005707896707461569L;
-    private  String name;
-    private  int age;
-    private transient String address;
+    private String name;
+    private int age;
+    private String address;
 
     public Student() {
     }
 
-    public Student( String name, int age, String address) {
+    public Student(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
@@ -22,6 +21,7 @@ public class Student implements Serializable {
 
     /**
      * 获取
+     *
      * @return name
      */
     public String getName() {
@@ -30,6 +30,7 @@ public class Student implements Serializable {
 
     /**
      * 设置
+     *
      * @param name
      */
     public void setName(String name) {
@@ -38,6 +39,7 @@ public class Student implements Serializable {
 
     /**
      * 获取
+     *
      * @return age
      */
     public int getAge() {
@@ -46,6 +48,7 @@ public class Student implements Serializable {
 
     /**
      * 设置
+     *
      * @param age
      */
     public void setAge(int age) {
@@ -54,6 +57,7 @@ public class Student implements Serializable {
 
     /**
      * 获取
+     *
      * @return address
      */
     public String getAddress() {
@@ -62,6 +66,7 @@ public class Student implements Serializable {
 
     /**
      * 设置
+     *
      * @param address
      */
     public void setAddress(String address) {
@@ -69,6 +74,6 @@ public class Student implements Serializable {
     }
 
     public String toString() {
-        return "name = " + name + ", age = " + age + ", address = " + address + "}";
+        return "{ name = " + name + ", age = " + age + ", address = " + address + "}";
     }
 }
