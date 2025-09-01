@@ -6,5 +6,6 @@ public abstract class cat extends animal {
         super(name,age);
     }
 
+
     public abstract void eat();
 }

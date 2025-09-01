@@ -1,12 +1,13 @@
 package StuDemo8_08.E;
 
-import lombok.Data;
 
-@Data
+
 public class lihuaCat extends cat{
     public lihuaCat(String name,int age) {
         super(name,age);
     }
+
+
 
 
     @Override

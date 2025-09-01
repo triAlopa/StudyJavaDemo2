@@ -54,7 +54,7 @@ public class E2 {
         }
 
 
-        ArrayList<String> list = getInfos(familyList, boyList, girlList, 50, 60);
+        ArrayList<String> list = getInfos(familyList, boyList, girlList, 200, 150);
         Collections.shuffle(list);
 
         //hutool 将集合数据写入文件，路径是项目根路径

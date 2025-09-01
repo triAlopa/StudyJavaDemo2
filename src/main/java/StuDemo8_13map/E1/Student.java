@@ -1,10 +1,9 @@
 package StuDemo8_13map.E1;
 
-import lombok.Data;
+
 
 import java.util.Objects;
 
-@Data
 public class Student {
     private String name;
     private int age;
@@ -14,11 +13,26 @@ public class Student {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, age);
     }
-
     @Override
     public boolean equals(Object  o){
         Student student =(Student) o;

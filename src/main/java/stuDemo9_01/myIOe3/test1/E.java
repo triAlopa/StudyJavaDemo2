@@ -26,6 +26,7 @@ public class E {
             // 将每行按"-"分割，取第一部分（名字）添加到集合中
             list.add(str);
         }
+        br.close();
         int boyCount=0; // 男生计数器
         int girlCount=0; // 女生计数器
 

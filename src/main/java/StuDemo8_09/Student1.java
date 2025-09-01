@@ -1,6 +1,6 @@
 package StuDemo8_09;
 
-import lombok.Data;
+
 
 import java.util.Objects;
 
@@ -14,7 +14,7 @@ import java.util.Objects;
      年龄一样-> 姓名字母排序
      姓名字母排序一样-> 认为同一个不存
  */
-@Data
+
 public class Student1 implements Comparable<Student1> {
     private String name;
     private int age;
@@ -45,6 +45,54 @@ public class Student1 implements Comparable<Student1> {
     @Override
     public int hashCode() {
         return Objects.hash(name, age, chinese, math, english, source);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getSource() {
+        return source;
+    }
+
+    public void setSource(double source) {
+        this.source = source;
+    }
+
+    public double getChinese() {
+        return chinese;
+    }
+
+    public void setChinese(double chinese) {
+        this.chinese = chinese;
+    }
+
+    public double getMath() {
+        return math;
+    }
+
+    public void setMath(double math) {
+        this.math = math;
+    }
+
+    public double getEnglish() {
+        return english;
+    }
+
+    public void setEnglish(double english) {
+        this.english = english;
     }
 
     @Override

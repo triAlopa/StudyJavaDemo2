@@ -1,6 +1,8 @@
 package stuDemo8_18.MyMethod.E;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String name;
     private int age;
 
