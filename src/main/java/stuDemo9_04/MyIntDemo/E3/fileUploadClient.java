@@ -21,7 +21,7 @@ public class fileUploadClient {
         BufferedOutputStream bos = new BufferedOutputStream(os);
 
         //拟定上传文件
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("src/a.txt"));
+        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("src/csb.txt"));
 
         //读取文件 使用其输入流 并用 链接获取的输出流输出
         int len = 0;
