@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+    <user id="1">
+        <userName>zhangsan</userName>
+        <password>123</password>
+        <phone>13112345678</phone>
+        <flag>true</flag>
+    </user>
+
+    <user id="2">
+        <userName>lisi</userName>
+        <password>1234</password>
+        <phone>13112345678</phone>
+        <flag>false</flag>
+    </user>
+    <user id="3">
+        <userName>wangwu</userName>
+        <password>12345</password>
+        <phone>13112345678</phone>
+        <flag>true</flag>
+    </user>
+
+    <user id="4">
+        <userName>laoliu</userName>
+        <password>123456</password>
+        <phone>13112345678</phone>
+        <flag>false</flag>
+    </user>
+
+</users>
